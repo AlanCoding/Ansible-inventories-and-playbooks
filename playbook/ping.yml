@@ -1,0 +1,7 @@
+---
+# Ping an unreachable host
+- name: Ping (probably) unreachable hosts
+  hosts: all 
+
+  tasks:
+  - ping:
